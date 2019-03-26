@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class PhoneBook {
+public class PhoneBook { //Класс Телефонная книга для задания № 2
     private ArrayList<String[]> phoneRecord = new ArrayList<>();
 
     public void add(String name, String phoneNumber) {
@@ -19,7 +19,7 @@ public class PhoneBook {
             record = iter.next();
             if (record[0].equals(name)) System.out.println(record[1]);
         }
-        System.out.println("Больше данных нет");
+        System.out.println("Больше данных нет" + "\n");
     }
 }
 

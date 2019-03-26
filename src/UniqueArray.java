@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class UniqueArray {
+public class UniqueArray { //Класс для задания № 1. Хранит уникальные строковые значения и их количество
     private ArrayList<String> stringList = new ArrayList<>();
     private ArrayList<Integer> countList = new ArrayList<>();
 
@@ -29,5 +29,6 @@ public class UniqueArray {
         for (int i = 0; i < stringList.size(); i++) {
             System.out.println(stringList.get(i) + " - " + countList.get(i));
         }
+        System.out.println();
     }
 }
